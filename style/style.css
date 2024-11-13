@@ -132,7 +132,12 @@ main h2 {
     text-align: justify;
     line-height: 1.8;
 }
-
+#th1{
+    width: 19%;
+}
+td{
+    padding: 1%;
+}
 footer {
     background-color: #f1f1f1;
     color: #333;
@@ -172,6 +177,9 @@ footer {
 }
 
 @media (max-width: 480px) {
+    table, #historia{
+        font-size: small;
+    }
     nav h2 {
         font-size: 0.7rem;
     }
