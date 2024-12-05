@@ -180,21 +180,17 @@ p {
   }
 }
 
-@media (max-width: 480px) {
-  table,
-  #historia {
-    font-size: small;
+@media (max-width: 572px) {
+  #menu_navegacao{
+    display: none;
   }
+
   nav h2 {
-    font-size: 0.7rem;
-  }
-
-  #menu_navegacao {
-    gap: 0.5rem;
-  }
-
-  .item_nav a {
-    font-size: 0.7rem;
+    padding: 1.5%;
+    width: 100%;
+    margin: 0;
+    font-size: 0.9rem;
+    text-align: center;
   }
 
   #infos_basicas li {
