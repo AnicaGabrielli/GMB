@@ -184,7 +184,9 @@ p {
   #menu_navegacao{
     display: none;
   }
-
+  nav{
+    box-shadow:none ;
+  }
   nav h2 {
     padding: 1.5%;
     width: 100%;
@@ -195,6 +197,11 @@ p {
 
   #infos_basicas li {
     width: 90%;
+  }
+
+  #antigo{
+    width: 100%;
+    height: 300px;
   }
 
   footer {
