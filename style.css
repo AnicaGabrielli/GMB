@@ -203,7 +203,9 @@ p {
     font-size: small;
     width: 90%;
   }
-
+  p{
+    font-size: 17px;
+  }
   #antigo{
     width: 100%;
   }
@@ -218,10 +220,10 @@ p {
     border-radius: 50%;
     z-index: 1;
     bottom: 0;
-    right: 5px;
+    right: 20px;
     position:absolute;
   }
-  
+
   footer {
     font-size: smaller;
   }
