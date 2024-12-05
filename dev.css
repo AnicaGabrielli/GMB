@@ -26,7 +26,6 @@ h2{
     padding-top: 1.6%;
     color: rgb(75, 66, 66);
     font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
     padding-bottom: 1.6%;
 }
 #sobre{
@@ -47,7 +46,7 @@ a{
     margin-bottom: 10%;
 }
 a:hover{
-    background-color: rgb(49, 73, 177);
+    background-color: rgb(142, 143, 150);
     transition: 1.2s;
     border-radius: 50%;
 }
@@ -55,16 +54,15 @@ a:hover{
 p{
     margin: 3%;
     font-size: large;
-    color: rgb(65, 62, 62) ;
-    
-    letter-spacing: 0.8px;
+    color: rgb(97, 93, 93) ;
+    letter-spacing: 0.4px;
     text-align: justify;
     width: 90%;
 }
 #eu{
     width: 80%;
     margin-bottom: 0.5%;
-    border-radius: 20px;
+    border-radius: 10px;
 
 }
 @media (max-width: 680px) {
@@ -72,6 +70,9 @@ p{
         border: none;
         width: 100%;
 
+    }
+    #eu{
+        width: 80%;
     }
     p{
         width: 90%;
